@@ -62,6 +62,13 @@ function App() {
 
         {/* Features Section */}
         <section className="features-section">
+          <div className="calendar-preview">
+            <img 
+              src="/images/calendar-preview.jpeg" 
+              alt="CampusRadar Calendar Preview" 
+              className="calendar-image"
+            />
+          </div>
           <h3>Why Choose CampusRadar?</h3>
           <div className="features-grid">
             <div className="feature-card">

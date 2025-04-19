@@ -434,6 +434,26 @@ body {
   overflow: hidden;
 }
 
+.calendar-preview {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+}
+
+.calendar-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.calendar-preview:hover .calendar-image {
+  transform: scale(1.02);
+}
+
 .features-section::before {
   content: '';
   position: absolute;
